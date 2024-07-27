@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home" class="brand-name">Booking.com</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><button class="nav-button">Register</button></li>
+                    <li><button class="nav-button">Sign in</button></li>
+                </ul>
+            </nav>
+            <h1>Welcome to Our Service</h1>
+            <h2><b>Find your next stay</b></h2>
+            <h3>Search low prices on hotels, homes and much more...</h3>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section class="features" id="features"><br>
+        <h1 style="padding: 10px;">Browse by property type</h1>
+        <div class="carousel">
+           
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            
+          
+            <div class="slides">
+              
+                <div class="slide">
+                    <div class="feature">
+                        <img src="img/Hotels.jpeg" alt="Hotels">
+                        <p>Hotels</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Apartments.jpeg" alt="Apartments">
+                        <p>Apartments</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Resorts.jpeg" alt="Resorts">
+                        <p>Resorts</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Villas.jpeg" alt="Villas">
+                        <p>Villas</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="feature">
+                        <img src="img/Cabins.jpeg" alt="Cabins">
+                        <p>Cabins</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Cottages.jpeg" alt="Cottages">
+                        <p>Cottages</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Glamping SItes.jpeg" alt="Glamping Sites">
+                        <p>Glamping Sites</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Holiday Homes.jpeg" alt="Holiday Homes">
+                        <p>Holiday Homes</p>
+                    </div>
+                </div>
+               
+            </div>
+
+            
+            <div class="controls">
+                <label for="slide1" class="control-btn"></label>
+                <label for="slide2" class="control-btn"></label>
+                <label for="slide3" class="control-btn"></label>
+                <label for="slide4" class="control-btn"></label>
+            </div>
+        </div>
+    </section>
+
+   <section class="features"><br>
+        <h1 style="padding: 10px;">Explore India</h1>
+        <p style="padding: 10px;">These popular destinations have a lot of offer</p>
+        <div class="carousel">
+            
+            <input type="radio" name="slider2" id="explore-slide1" checked>
+            <input type="radio" name="slider2" id="explore-slide2">
+            <input type="radio" name="slider2" id="explore-slide3">
+            <input type="radio" name="slider2" id="explore-slide4">
+            
+            <div class="slides">
+                
+                <div class="slide">
+                    <div class="feature">
+                        <img src="img/Bangalor.jpg" alt="Hotels">
+                        <p>Bangalor</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Goa.jpg" alt="Apartments">
+                        <p>Goa</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Ooty.jpg" alt="Resorts">
+                        <p>Ooty</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Mumbai.jpg" alt="Villas">
+                        <p>Mumbai</p>
+                    </div>
+                </div>
+                
+                <div class="slide">
+                    <div class="feature">
+                        <img src="img/New delhi.jpg" alt="Cabins">
+                        <p>New Delhi</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Munnar.jpg" alt="Cottages">
+                        <p>Munnar</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Lonavala.jpg" alt="Glamping Sites">
+                        <p>Lonavala</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Rishikesh.jpg" alt="Holiday Homes">
+                        <p>Rishikesh</p>
+                    </div>
+                    <div class="feature">
+                        <img src="img/Manali.jpg" alt="Holiday Homes">
+                        <p>Manali</p>
+                    </div>
+                </div>
+              
+            </div>
+
+            
+            <div class="controls">
+                <label for="explore-slide1" class="control-btn"></label>
+                <label for="explore-slide2" class="control-btn"></label>
+                <label for="explore-slide3" class="control-btn"></label>
+                <label for="explore-slide4" class="control-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h1 style="text-align: color #f7f3f3;">Feel free to reach out Us !!</h1>
+            <a href="https://www.facebook.com/"><img src="img/icons8-facebook-48.png" alt=""></a>
+            <a href="https://www.instagram.com/"> <img src="img/icons8-instagram-48.png" alt=""></a>
+            <a href="https://x.com/"> <img src="img/icons8-twitter-48.png" alt=""></a>
+            <a href=""> <img src="img/icons8-mail-48.png" alt=""></a>
+            <p>&copy; 2024 Fenil Solanki Booking.com. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
